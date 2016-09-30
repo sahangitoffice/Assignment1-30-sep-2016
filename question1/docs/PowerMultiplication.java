@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class PowerMultiplication {
 
-
         public static void main(String[] args) {
 
             int x;
