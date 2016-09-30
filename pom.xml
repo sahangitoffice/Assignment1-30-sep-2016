@@ -10,9 +10,22 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>../question1</module>
-        <module>../question2</module>
+        <module>question1</module>
+        <module>question2</module>
     </modules>
+
+    <!--
+    <profiles>
+        <profile>
+                <id>q1</id>
+                <id>q2</id>
+            <modules>
+                <module>../question1</module>
+                <module>../question2</module>
+            </modules>
+        </profile>
+    </profiles>
+-->
 
     <build>
         <plugins>
